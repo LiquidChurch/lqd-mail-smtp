@@ -1,0 +1,51 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.lc-mail-smtp-meta-inputs {
+    width: 100%;
+}
+
+.lc-mail-smtp-form-table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.lc-mail-smtp-form-table td, .lc-mail-smtp-form-table th {
+    border: 1px solid #ddd;
+    padding: 15px;
+    vertical-align: middle;
+    color: #0a0a0a !important;
+}
+
+.lc-mail-smtp-form-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+}
+
+.page-numbers {
+    display: inline-block;
+    vertical-align: baseline;
+    min-width: 25px;
+    min-height: 25px;
+    margin: 0;
+    padding: 0 4px;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.column-timestamp {
+    width: 10%;
+}
+
+td.no-items {
+    text-align: center;
+}

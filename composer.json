@@ -1,0 +1,27 @@
+{
+  "name": "codesigma/lc-mail-smtp",
+  "description": "Reconfigures the wp_mail() function to use PHPMailer instead of the default mail() and creates an options page to manage the settings. Logs each email sent by WordPress.",
+  "type": "wp-plugin",
+  "autoload": {
+    "classmap": [
+    ],
+    "files": [
+      "public/form-handle/class-lc-mail-smtp-ajax-response.php",
+      "admin/form-handle/class-lc-mail-smtp-ajax-response.php"
+    ]
+  },
+  "require": {
+    "league/oauth2-google": "^3.0",
+    "league/oauth2-client": "^2.4",
+    "google/apiclient": "^2.4",
+    "phpmailer/phpmailer": "^6.1"
+  },
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Codesigma",
+      "email": "office@codesigma.tech"
+    }
+  ],
+  "minimum-stability": "stable"
+}

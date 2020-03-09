@@ -1,24 +1,18 @@
 <?php
 
 /**
- * The plugin bootstrap file
  *
- * This file is read by WordPress to generate the plugin information in the plugin
- * admin area. This file also includes all of the dependencies used by the plugin,
- * registers the activation and deactivation functions, and defines a function
- * that starts the plugin.
- *
- * @link              https://codesigma.tech
+ * @link              https://github.com/liquidchurch/lqd-mail-smtp/
  * @since             1.0.0
  * @package           Lc_Mail_Smtp
  *
  * @wordpress-plugin
  * Plugin Name:       Liquid Church Mail SMTP
- * Plugin URI:        lc-mail-smtp
+ * Plugin URI:        lqd-mail-smtp
  * Description:       Reconfigures the wp_mail() function to use PHPMailer instead of the default mail() and creates an options page to manage the settings. Logs each email sent by WordPress.
  * Version:           1.0.0
- * Author:            Codesigma
- * Author URI:        https://codesigma.tech
+ * Author:            Liquid Church, Liquid Church
+ * Author URI:        https://liquidchurch.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       lc-mail-smtp
@@ -31,9 +25,7 @@ if (!defined('WPINC')) {
 }
 
 /**
- * Currently plugin version.
- * Start at version 1.0.0 and use SemVer - https://semver.org
- * Rename this for your plugin and update it as you release new versions.
+ * Current plugin version.
  */
 define('LC_MAIL_SMTP_VERSION', '1.0.0');
 define('LC_MAIL_SMTP_PATH', plugin_dir_path(__FILE__));

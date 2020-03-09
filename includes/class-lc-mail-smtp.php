@@ -6,7 +6,7 @@
  * A class definition that includes attributes and functions used across both the
  * public-facing side of the site and the admin area.
  *
- * @link       https://codesigma.tech
+ * @link       https://liquidchurch.com
  * @since      1.0.0
  *
  * @package    Lc_Mail_Smtp
@@ -25,7 +25,7 @@
  * @since      1.0.0
  * @package    Lc_Mail_Smtp
  * @subpackage Lc_Mail_Smtp/includes
- * @author     Codesigma <office@codesigma.tech>
+ * @author     Liquid Church <webmaster@liquidchurch.com>
  */
 class Lc_Mail_Smtp
 {

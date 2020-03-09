@@ -5,7 +5,7 @@
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       https://codesigma.tech
+ * @link       https://liquidchurch.com
  * @since      1.0.0
  *
  * @package    Lc_Mail_Smtp

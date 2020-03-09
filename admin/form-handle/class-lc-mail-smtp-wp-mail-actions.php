@@ -19,7 +19,7 @@ require LC_MAIL_SMTP_PATH . 'vendor/autoload.php';
  *
  * @package    Lc_Mail_Smtp
  * @subpackage Lc_Mail_Smtp/admin
- * @author     Codesigma <office@codesigma.tech>
+ * @author     Liquid Church <webmaster@liquidchurch.com>
  */
 class Lc_Mail_Smtp_WP_Mail_Actions
 {
